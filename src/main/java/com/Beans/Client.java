@@ -24,6 +24,8 @@ public class Client {
         this.listCompte = listCompte;
     }
 
+    public Client(){}
+
 
     @Override
     public String toString() {

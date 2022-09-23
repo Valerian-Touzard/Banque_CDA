@@ -6,9 +6,9 @@ public class CompteEpargne extends Compte{
 
     protected double soldeMax;
 
-    public CompteEpargne(int idCompte, String numerosCompte, double solde, double soldeMax, int idClient) {
+    public CompteEpargne(int idCompte, String numerosCompte, double solde, int idClient) {
         super(idCompte, numerosCompte, solde, idClient);
-        this.soldeMax = soldeMax;
+        this.soldeMax = 7000;
     }
 
     @Override
